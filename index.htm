@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+<script>
+    const locomotiveScroll = new LocomotiveScroll();
+</script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="logo">
+      </div>
+      <div class="nav-items">
+        <div class="links">
+          <a href="#">Shop</a>
+          <a href="#">Packaging Solutions</a>
+          <a href="#">Company</a>
+          <a href="#">Resources</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="credit">
+          <div class="credit-applicaiton">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.66053 7.24356V6.16023H14.3401V7.24356H7.66053ZM7.66053 9.64752V8.56419H14.3401V9.64752H7.66053ZM10.4362 17.5834H5.00033C4.55699 17.5834 4.18227 17.4303 3.87616 17.1242C3.57005 16.8181 3.41699 16.4434 3.41699 16V13.0963H5.41699V2.41669H16.5837V8.80294L15.5003 9.86544V3.50002H6.50033V13.0963H12.2487L11.1653 14.1794H4.50033V16C4.50033 16.1417 4.54824 16.2604 4.64408 16.3563C4.73991 16.4521 4.85866 16.5 5.00033 16.5H10.4362V17.5834ZM12.0966 17.5834V15.5898L16.9235 10.7838L18.888 12.7852L14.0993 17.5834H12.0966ZM12.8401 16.8398H13.7776L16.3576 14.2675L15.8914 13.7884L15.441 13.3142L12.8401 15.9023V16.8398ZM15.8914 13.7884L15.441 13.3142L16.3576 14.2675L15.8914 13.7884Z"
+                fill="#707767"></path>
+            </svg>
+            <p>Credit Application</p>
+          </div>
+
+          <svg width="25" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="user">
+            <path
+              d="M6.20708 17.4231C5.84681 17.4231 5.54222 17.2972 5.29333 17.0452C5.04444 16.7934 4.92 16.4873 4.92 16.1269C4.92 15.7666 5.0459 15.462 5.29771 15.2131C5.54965 14.9642 5.85576 14.8398 6.21604 14.8398C6.57632 14.8398 6.8809 14.9657 7.12979 15.2175C7.37868 15.4694 7.50313 15.7756 7.50313 16.1358C7.50313 16.4961 7.37722 16.8007 7.12542 17.0496C6.87347 17.2986 6.56736 17.4231 6.20708 17.4231ZM14.9506 17.4231C14.5903 17.4231 14.2858 17.2972 14.0369 17.0452C13.788 16.7934 13.6635 16.4873 13.6635 16.1269C13.6635 15.7666 13.7894 15.462 14.0413 15.2131C14.2932 14.9642 14.5993 14.8398 14.9596 14.8398C15.3199 14.8398 15.6244 14.9657 15.8733 15.2175C16.1222 15.4694 16.2467 15.7756 16.2467 16.1358C16.2467 16.4961 16.1208 16.8007 15.869 17.0496C15.617 17.2986 15.3109 17.4231 14.9506 17.4231ZM5.74188 5.08333L7.58333 9.33979H13.8542L15.6987 5.08333H5.74188ZM5.28854 4H17.2773L14.5929 10.4231H7.1875L6.08813 12.3398H16.2467V13.4231H4.19396L6.47271 9.50646L3.71167 3.08333H2V2H4.43438L5.28854 4Z"
+              fill="#1D1D1B"></path>
+          </svg>
+          <svg width="25" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="user">
+            <path
+              d="M9.99935 9.74333C9.2806 9.74333 8.67039 9.49249 8.16872 8.99083C7.66692 8.48902 7.41602 7.87874 7.41602 7.15999C7.41602 6.44124 7.66692 5.83104 8.16872 5.32937C8.67039 4.82756 9.2806 4.57666 9.99935 4.57666C10.7181 4.57666 11.3283 4.82756 11.83 5.32937C12.3318 5.83104 12.5827 6.44124 12.5827 7.15999C12.5827 7.87874 12.3318 8.48902 11.83 8.99083C11.3283 9.49249 10.7181 9.74333 9.99935 9.74333ZM4.41602 15.4229V13.9035C4.41602 13.6483 4.49213 13.4023 4.64435 13.1656C4.79657 12.929 5.00949 12.7241 5.2831 12.551C6.00949 12.1334 6.77296 11.8132 7.57352 11.5904C8.37407 11.3676 9.18122 11.2562 9.99497 11.2562C10.8087 11.2562 11.6173 11.3676 12.4208 11.5904C13.2243 11.8132 13.9892 12.1334 14.7156 12.551C14.9892 12.7102 15.2021 12.9116 15.3543 13.1552C15.5066 13.3988 15.5827 13.6483 15.5827 13.9035V15.4229H4.41602ZM5.49935 14.3396H14.4993V13.9035C14.4993 13.8156 14.4677 13.7329 14.4043 13.6554C14.3409 13.5779 14.2534 13.5121 14.1421 13.4581C13.5351 13.0906 12.8794 12.8123 12.175 12.6231C11.4704 12.4341 10.7452 12.3396 9.99935 12.3396C9.25352 12.3396 8.52831 12.4341 7.82372 12.6231C7.11928 12.8123 6.46358 13.0906 5.85664 13.4581C5.74456 13.5351 5.65699 13.6087 5.59393 13.6792C5.53088 13.7496 5.49935 13.8244 5.49935 13.9035V14.3396ZM10.0037 8.65999C10.4175 8.65999 10.7702 8.5127 11.0618 8.21812C11.3535 7.92353 11.4993 7.56937 11.4993 7.15562C11.4993 6.74187 11.3521 6.38916 11.0575 6.09749C10.7629 5.80583 10.4087 5.65999 9.99497 5.65999C9.58122 5.65999 9.22852 5.80735 8.93685 6.10208C8.64518 6.39666 8.49935 6.75083 8.49935 7.16458C8.49935 7.57819 8.64664 7.93083 8.94122 8.22249C9.23581 8.51416 9.58997 8.65999 10.0037 8.65999Z"
+              fill="#1D1D1B"></path>
+          </svg>
+
+        </div>
+
+
+
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <img
+        src="https://yucca.co.za/wp-content/uploads/2025/09/yucca-packaging-homepage-intro-plastic-cups-for-iced-chilled-drinks-2.jpg"
+        alt="" />
+      <div class="overlay">
+        <div class="text">
+          <h1>
+            Packaging that Performs. Innovated
+            <br />
+            for Industry Leaders.
+          </h1>
+        </div>
+
+        <section class="card-container">
+          <div class="card">
+            <div class="bf">
+              <h1>Food Services</h1>
+            </div>
+            <div class="af">
+              <div class="aftxt">
+                <div class="line1 line">
+                  <p>Your food service packaging is an extension</p>
+                </div>
+                <div class="line2 line">
+                  <p>of your brand experience. Have functional</p>
+                </div>
+                <div class="line3 line">
+                  <p>pand on-brand items like cups, tubs, bowls,</p>
+                </div>
+                <div class="line4 line">
+                  <p>and more readily available for takeout,</p>
+                </div>
+                <div class="line5 line">
+                  <p>catering, and deli food. Choose standard</p>
+                </div>
+                <div class="line6 line">
+                  <p>containers, customised or designed from</p>
+                </div>
+                <div class="line7 line">
+                  <p>scratch</p>
+                </div>
+              </div>
+              <div class="loader">
+                <div class="bar"></div>
+              </div>
+              <div class="bottom">
+                <div class="botxt">
+                  <h3>Learn More</h5>
+                </div>
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="bf">
+              <h1>Food Processing</h1>
+            </div>
+            <div class="af">
+              <div class="aftxt">
+                <div class="line1 line">
+                  <p>Keep meat, poultry, and seafood fresh for</p>
+                </div>
+                <div class="line2 line">
+                  <p>longer with packaging that minimises leaks</p>
+                </div>
+                <div class="line3 line">
+                  <p>and reduces waste. For ready meals, opt for</p>
+                </div>
+                <div class="line4 line">
+                  <p>ultra-convenient, retail-ready packaging,</p>
+                </div>
+                <div class="line5 line">
+                  <p>designed to go from freezer to oven with</p>
+                </div>
+                <div class="line6 line">
+                  <p>ease.</p>
+                </div>
+              </div>
+              <div class="loader">
+                <div class="bar"></div>
+              </div>
+              <div class="bottom">
+                <div class="botxt">
+                  <h3>Learn More</h5>
+                </div>
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="bf">
+              <h1>Agriculture</h1>
+            </div>
+            <div class="af">
+              <div class="aftxt">
+                <div class="line1 line">
+                  <p>Ensure that your produce remains crisp and</p>
+                </div>
+                <div class="line2 line">
+                  <p>fresh from the harvesting phase to the</p>
+                </div>
+                <div class="line3 line">
+                  <p>moment it hits store shelves. Growers</p>
+                </div>
+                <div class="line4 line">
+                  <p>packhouses, exporters, and retailers trust</p>
+                </div>
+                <div class="line5 line">
+                  <p>Yucca Packaging to match shape, size, and</p>
+                </div>
+                <div class="line6 line">
+                  <p>material to their needs.</p>
+                </div>
+              </div>
+              <div class="loader">
+                <div class="bar"></div>
+              </div>
+              <div class="bottom">
+                <div class="botxt">
+                  <h3>Learn More</h5>
+                </div>
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <section class="sec2">
+      <div class="overlay-sec2">
+        <div class="text-top">
+          <div class="overlay-line">
+            <p>Quality </p>
+            <p>Branding</p>
+            <p>Yucca Rewards</p>
+            <p>Yucca Direct (B2B)</p>
+          </div>
+          <div class="overlay-line">
+           <p>Quality </p>
+            <p>Branding</p>
+            <p>Yucca Rewards</p>
+            <p>Yucca Direct (B2B)</p>
+          </div>
+          <div class="overlay-line">
+           <p>Quality </p>
+            <p>Branding</p>
+            <p>Yucca Rewards</p>
+            <p>Yucca Direct (B2B)</p>
+          </div>
+          <div class="overlay-line">
+           <p>Quality </p>
+            <p>Branding</p>
+            <p>Yucca Rewards</p>
+            <p>Yucca Direct (B2B)</p>
+          </div>
+          <div class="overlay-line">
+           <p>Quality </p>
+            <p>Branding</p>
+            <p>Yucca Rewards</p>
+            <p>Yucca Direct (B2B)</p>
+          </div>
+        </div>
+        <div class="text-bottom">
+          <div class="overlay-line">
+           <p>Partnerships</p>
+            <p>Custom Packaging</p>
+            <p>Sustainable</p>
+            <p>Innovation</p>
+          </div>
+          <div class="overlay-line">
+           <p>Partnerships</p>
+            <p>Custom Packaging</p>
+            <p>Sustainable</p>
+            <p>Innovation</p>
+          </div>
+          <div class="overlay-line">
+           <p>Partnerships</p>
+            <p>Custom Packaging</p>
+            <p>Sustainable</p>
+            <p>Innovation</p>
+          </div>
+          <div class="overlay-line">
+           <p>Partnerships</p>
+            <p>Custom Packaging</p>
+            <p>Sustainable</p>
+            <p>Innovation</p>
+          </div>
+          <div class="overlay-line">
+           <p>Partnerships</p>
+            <p>Custom Packaging</p>
+            <p>Sustainable</p>
+            <p>Innovation</p>
+          </div>
+        </div>
+      </div>
+      <img width="1400" height="1400" class="media image lazy entered loaded" alt="Plastic divider ready meal tray."
+        data-lazyload="1" decoding="async"
+        data-src="https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc.webp"
+        data-srcset="https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc.webp 1400w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-300x300.webp 300w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-800x800.webp 800w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-150x150.webp 150w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-768x768.webp 768w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-600x600.webp 600w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-100x100.webp 100w"
+        data-ll-status="loaded"
+        srcset="https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc.webp 1400w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-300x300.webp 300w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-800x800.webp 800w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-150x150.webp 150w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-768x768.webp 768w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-600x600.webp 600w, https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc-100x100.webp 100w"
+        src="https://yucca.co.za/wp-content/uploads/2025/05/1c9fd89a470793175cfc7f14a7a6e6dc.webp">
+    </section>
+  </main>
+</body>
+
+</html>
